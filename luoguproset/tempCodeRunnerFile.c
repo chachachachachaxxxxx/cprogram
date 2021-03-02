@@ -1,0 +1,1 @@
+return da[i-1][j-1][x-1][y-1] = max(maxda(a, N, x, y-1, i-1, j),maxda(a, N, x-1, y, i-1, j),maxda(a, N, x-1, y, i, j-1),maxda(a, N, x, y-1, i, j-1)) + a[(x-1)*N+y-1];
